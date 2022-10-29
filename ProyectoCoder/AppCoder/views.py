@@ -21,20 +21,20 @@ def lista_curso(request):
 
 def inicio(request):
 
-    return HttpResponse("vista incio")
+    return render(request, "inicio.html")
 
-def curso(request):
+def cursos(request):
 
-    return HttpResponse("vista incio")
+    return render(request, "cursos.html")
 
 def profesores(request):
 
-    return HttpResponse("vista incio")
+    return render(request, "profesores.html")
 
-def estudiante(request):
+def estudiantes(request):
 
-    return HttpResponse("vista incio")
+    return render(request, "estudiantes.html")
 
 def entregables(request):
 
-    return HttpResponse("vista incio")
+    return render(request, "entregables.html")
